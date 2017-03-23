@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Challenge2_navigation"
+             x:Class="Challenge2_navigation.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+            <Button Text="Go to page1" Clicked="Button_GoToPage1"></Button>
+            <Button Text="Go to page 2" Clicked="Button_GoToPage2"></Button>
+        </StackLayout>
+    </ScrollView>
+
+	
+
+</ContentPage>
